@@ -1,0 +1,51 @@
+html, body {
+  margin: 0;
+}
+
+html {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  height: 100%;
+}
+
+body {
+  overflow: hidden;
+  height: inherit;
+}
+
+h1 {
+  font-size: 2rem;
+  letter-spacing: -1px;
+  position: absolute;
+  margin: 0;
+  top: -4px;
+  right: 5px;
+
+  color: transparent;
+  text-shadow: 0 0 4px white;
+}
+
+button {
+  position: absolute;
+  font-size: 10px;
+  background-color: rgba(255,255,255,0);
+  padding: 5px;
+  color: white;
+  margin: 10px;
+  top: 20px;
+}
+
+#btn1 {
+  left: 20px;
+}
+
+#btn2 {
+  left: 50px;
+}
+
+#btn3 {
+  left: 90px;
+}
+
+#btn4 {
+  left: 150px;
+}
