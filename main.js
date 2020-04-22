@@ -69,7 +69,7 @@ while (balls.length < 50) {
   let ball = new Ball(
     {x: random(size,width - size), y: random(size,height - size)},
     {x: random(-5,5), y: random(-5,5)},
-    0,
+    0.1,
     colors[random(10, 20)],
     size
   );
